@@ -84,7 +84,6 @@ body {
   margin: 0 10px;
 }
 
-
 .about {
   position: static;
   width: 41px;
@@ -232,7 +231,6 @@ body {
   height: 2px;
   left: 0.5px;
   right: 2px;
-  top: calc(50% - 0 / 2 + 0.5px);
 }
 
 .frame2 {
@@ -287,7 +285,7 @@ body {
   font-size: 18px;
   line-height: 29px;
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
 
 .main-language {
@@ -427,7 +425,6 @@ body {
   height: 15.48px;
   left: 0; 
   top: 7.74px;
-  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14.1935px;
