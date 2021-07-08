@@ -1,4 +1,4 @@
-body {
+  body {
     background-color: antiquewhite;
 }
 
@@ -29,7 +29,7 @@ body {
   width: 230px;
   height: 40px;
   right: 100px;
-  top: calc(50% - 40px/2);
+  top: calc(50% - 40px / 2);
 }
 
 .name {
@@ -40,17 +40,17 @@ body {
   position: absolute;
   width: 101px;
   height: 40px;
-  left: 142;
+  left: 142px;
   top: 16px;
 }
 
 .carlosfeliz {
   position: static;
   width: 100px;
-  height: 10;
+  height: 10px;
   left: 12px;
   top: 10px;
-  font-family: 'Times New Roman';
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -58,7 +58,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  flex:none;
+  flex: none;
   order: 0;
   flex-grow: 0;
   margin: 0 10px;
@@ -70,7 +70,7 @@ body {
   height: 20px;
   left: 12px;
   top: 100px;
-  font-family: 'Times New Roman';
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -90,7 +90,7 @@ body {
   height: 20px;
   left: 12px;
   top: 10px;
-  font-family: 'Times New Roman';
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -111,7 +111,7 @@ body {
   height: 20px;
   left: 20px;
   top: 10px;
-  font-family: 'Times New Roman';
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -146,7 +146,7 @@ body {
   height: 50px;
   left: 0;
   top: 120px;
-  font-family: 'Times New Roman';
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -203,7 +203,7 @@ body {
   height: 155px;
   left: 0.5px;
   top: 0;
-  font-family: 'Times New Roman';
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -280,7 +280,7 @@ body {
   height: 16px;
   left: 8px;
   top: 5.33px;
-  font-family:'Times New Roman';
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight:  bold;
   font-size: 18px;
@@ -311,7 +311,7 @@ body {
   height: 14px;
   left: 0;
   top: 1.17px;
-  font-family: 'Times New Roman';
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -326,7 +326,7 @@ body {
   height: 14px;
   left: 0;
   top: 7.17px;
-  font-family: 'Times New Roman';
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -341,7 +341,7 @@ body {
   height: 14px;
   left: 0;
   top: 7.17px;
-  font-family: 'Times New Roman';
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -375,7 +375,7 @@ body {
   width: 100px;
   height: 175.48px;
   left: 0;
-  top: 38.67;
+  top: 38.67px;
 }
 
 .header-frameworks {
@@ -396,7 +396,7 @@ body {
   height: 20px;
   left: 8px;
   top: 5.33px;
-  font-family: 'Times New Roman';
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -411,7 +411,7 @@ body {
   height: 15.48px;
   left: 0;
   top: 7.74px;
-  font-family: 'Times New Roman';
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14.1935px;
@@ -419,13 +419,14 @@ body {
   display: flex;
   align-items: center;
 }
+
 .p-framework2 {
   position: static;
   width: 104.52px;
   height: 15.48px;
   left: 0; 
   top: 7.74px;
-  font-family: 'Times New Roman';
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14.1935px;
@@ -440,7 +441,7 @@ body {
   height: 15.48px;
   left: 0;
   top: 7.74px;
-  font-family: 'Times New Roman';
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14.1935px;
