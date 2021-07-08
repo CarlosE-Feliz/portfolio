@@ -1,8 +1,8 @@
-body{
+body {
     background-color: antiquewhite;
 }
 
-.header{
+  .header {
     position: absolute;
     width: 1440px;
     height: 72px;
@@ -10,20 +10,22 @@ body{
     top: 0px;
 }
 
-.anchor{
+  .anchor {
     text-decoration: none;
 }
-.anchor:hover{
+
+  .anchor:hover {
     background-color: burlywood;
     -webkit-border-radius: 8px;
     border-radius: 8px;
 
 }
-.about{
+
+  .about {
     border-radius: 5px solid;
 }
 
-.navigation{
+  .navigation {
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -36,7 +38,7 @@ body{
 
 }
 
-.name{
+  .name {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,13 +50,13 @@ body{
     top: 16px;
 }
 
-.carlosfeliz{
+  .carlosfeliz {
     position: static;
     width: 100px;
     height: 10;
     left: 12px;
     top: 10px;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -68,13 +70,13 @@ body{
     margin: 0px 10px;
 }
 
-.portoflio{
+  .portoflio {
     position: static;
     width: 59px;
     height: 20px;
     left: 12px;
     top: 100px;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -90,13 +92,13 @@ body{
     
 }
 
-.about{
+  .about {
     position: static;
     width: 41px;
     height: 20px;
     left: 12px;
     top: 10px;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -107,17 +109,17 @@ body{
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 10px;
-    padding: 0px 12px;
+    margin: 0px 10pxs;
+    padding: 10px 12px;
 }
 
-.contact{
+  .contact {
     position: static;
     width: 41px;
     height: 20px;
     left: 20px;
     top: 10px;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -129,10 +131,10 @@ body{
     order: 0;
     flex-grow: 0;
     margin: 0px 10px;
-    padding: 0px 12px;
+    padding: 10px 12px;
 }
 
-.primary-text{
+  .primary-text {
     position: static;
     width: 1156px;
     height: 40px;
@@ -141,18 +143,18 @@ body{
     text-align: center;
     font-size: 90px;
     line-height: 105px;
-    font-family: Times New Roman;
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: bold;
 }
 
-.support-text{
+  .support-text {
     position: static;
     width: 1156px;
     height: 50px;
     left: 0px;
     top: 120px;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
@@ -163,7 +165,7 @@ body{
     margin: 24px 0px;
 }
 
-.main{
+  .main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,7 +177,7 @@ body{
     top: 72px;
 }
 
-.frame1{
+ .frame1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -188,7 +190,7 @@ body{
 
 }
 
-.support-div{
+  .support-div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -204,13 +206,13 @@ body{
     margin: 88px 0px;
 }
 
-.support-paragraph{
+  .support-paragraph {
     position: static;
     width: 447px;
     height: 155px;
     left: 0.5px;
     top: 0px;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -222,7 +224,7 @@ body{
     margin: 24px 0px;
 }
 
-.div-divider{
+  .div-divider {
     position: static;
     width: 100%;
     height: 17px;
@@ -235,7 +237,7 @@ body{
    
 }
 
-.divider{
+  .divider {
     height: 0px;
     left: 0px;
     right: 0px;
@@ -243,7 +245,7 @@ body{
    
 }
 
-.frame2{
+  .frame2 {
     display: flex;
     flex-direction: row;
     align-self: flex-start;
@@ -259,7 +261,7 @@ body{
     margin: 24px 0px;
 }
 
-.language{
+  .language {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -271,7 +273,7 @@ body{
     top: 0px;
 }
 
-.header-language{
+  .header-language {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -282,13 +284,13 @@ body{
     left: 0px;
     top: 0px;
 }
-.text-language{
+  .text-language {
     position: static;
     width: 107px;
     height: 16px;
     left: 8px;
     top: 5.33px;
-    font-family:'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight:  bold;
     font-size: 18px;
@@ -299,7 +301,7 @@ body{
 
 }
 
-.main-language{
+  .main-language {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -315,13 +317,13 @@ body{
     margin: 12px 0px; 
 }
 
-.p-css{
+  .p-css {
     position: static;
     width: 68px;
     height: 14px;
     left: 0px;
     top: 1.17px;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -330,13 +332,13 @@ body{
     align-items: center;
 }
 
-.p-html{
+  .p-html {
     position: static;
     width: 96px;
     height: 14px;
     left: 0px;
     top: 7.17px;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -345,13 +347,13 @@ body{
     align-items: center;
 }
 
-.p-javascript{
+  .p-javascript {
     position: static;
     width: 68px;
     height: 14px;
     left: 0px;
     top: 7.17px;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -360,7 +362,7 @@ body{
     align-items: center;
 }
 
-.frameworks{
+  .frameworks {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -376,7 +378,7 @@ body{
     margin: 0px 24px;
 }
 
-.main-frameworks{
+  .main-frameworks {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -388,7 +390,7 @@ body{
     top: 38.67;
 }
 
-.header-frameworks{
+  .header-frameworks {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -400,13 +402,13 @@ body{
     top: 0px;
 }
 
-.text-frameworks{
+  .text-frameworks {
     position: static;
     width: 137px;
     height: 20px;
     left: 8px;
     top: 5.33px;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -415,13 +417,13 @@ body{
     align-items: center;
 }
 
-.p-framework1{
+  .p-framework1 {
     position: static;
     width: 73.55px;
     height: 15.48px;
     left: 0px;
     top: 7.74px;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14.1935px;
@@ -429,13 +431,13 @@ body{
     display: flex;
     align-items: center;
 }
-.p-framework2{
+  .p-framework2 {
     position: static;
     width: 104.52px;
     height: 15.48px;
     left: 0px;
     top: 7.74px;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14.1935px;
@@ -445,13 +447,13 @@ body{
 
 }
 
-.p-framework3{
+  .p-framework3 {
     position: static;
     width: 73.55px;
     height: 15.48px;
     left: 0px;
     top: 7.74px;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14.1935px;
