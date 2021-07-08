@@ -81,9 +81,9 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0 10px; 
-
+  margin: 0 10px;
 }
+
 
 .about {
   position: static;
@@ -136,7 +136,7 @@ body {
   text-align: center;
   font-size: 90px;
   line-height: 105px;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: bold;
 }
@@ -229,9 +229,9 @@ body {
 }
 
 .divider {
-  height: 2;
+  height: 2px;
   left: 0.5px;
-  right: 2;
+  right: 2px;
   top: calc(50% - 0 / 2 + 0.5px);
 }
 
@@ -283,12 +283,11 @@ body {
   top: 5.33px;
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
-  font-weight:  bold;
+  font-weight: bold;
   font-size: 18px;
   line-height: 29px;
   display: flex;
   align-items: center; 
-
 }
 
 .main-language {
@@ -304,8 +303,7 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 12px 0; 
-
+  margin: 12px 0;
 }
 
 .p-css {
