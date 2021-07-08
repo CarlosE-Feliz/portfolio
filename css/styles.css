@@ -1,5 +1,5 @@
-  body {
-    background-color: antiquewhite;
+body {
+  background-color: antiquewhite;
 }
 
 .header {
@@ -81,7 +81,8 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0 10px;  
+  margin: 0 10px; 
+
 }
 
 .about {
@@ -135,7 +136,7 @@
   text-align: center;
   font-size: 90px;
   line-height: 105px;
-  font-family: Times New Roman;
+  font-family:'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: bold;
 }
@@ -228,9 +229,9 @@
 }
 
 .divider {
-  height: 0;
-  left: 0;
-  right: 0;
+  height: 2;
+  left: 0.5px;
+  right: 2;
   top: calc(50% - 0 / 2 + 0.5px);
 }
 
@@ -286,7 +287,8 @@
   font-size: 18px;
   line-height: 29px;
   display: flex;
-  align-items: center;  
+  align-items: center; 
+
 }
 
 .main-language {
@@ -298,11 +300,12 @@
   width: 111px;
   height: 129px;
   left: 0;
-  top: 38.67;
+  top: 38.67px;
   flex: none;
   order: 1;
   flex-grow: 0;
   margin: 12px 0; 
+
 }
 
 .p-css {
