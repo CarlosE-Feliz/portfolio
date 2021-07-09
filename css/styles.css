@@ -1,5 +1,10 @@
 body {
   background-color: antiquewhite;
+  width: 1440px;
+  height: 2651px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 ul {
@@ -459,4 +464,53 @@ ul {
   line-height: 28px;
   display: flex;
   align-items: center;
+}
+
+.grid-container {
+  margin-top: 80%;
+  margin-left: 150px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 100px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+}
+
+.item1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  height: 250px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.item4 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  height: 250px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.item5 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  height: 250px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+
+.div-divider2 {
+  position: static;
+  width: 85%;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-top: 10%;
 }
