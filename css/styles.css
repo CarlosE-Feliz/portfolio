@@ -2,6 +2,13 @@ body {
   background-color: antiquewhite;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2px;
+}
+
 .header {
   position: absolute;
   width: 1440px;
@@ -12,6 +19,7 @@ body {
 
 .anchor {
   text-decoration: none;
+  color: black;
 }
 
 .anchor:hover {
@@ -42,6 +50,11 @@ body {
   height: 40px;
   left: 142px;
   top: 16px;
+}
+
+.name > a {
+  text-decoration: none;
+  color: black;
 }
 
 .carlosfeliz {
