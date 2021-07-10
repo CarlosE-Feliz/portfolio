@@ -1,4 +1,4 @@
-*{
+* {
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -675,17 +675,17 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background: #9390FF;
+  background: #9390ff;
   border-radius: 9px;
 }
 
-.info{
+.info {
   display: inline;
 }
 
 .info-list {
- display: inline;
- list-style-type: none;
+  display: inline;
+  list-style-type: none;
 }
 
 .info-list li {
@@ -702,12 +702,12 @@ ul {
   position: static;
   width: 106px;
   height: 48px;
-  left: 0px;
+  left: 0;
   top: 357px;
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin: 24px 0px;
-  background: #9390FF;
+  margin: 24px 0;
+  background: #9390ff;
   border-radius: 9px;
 }
