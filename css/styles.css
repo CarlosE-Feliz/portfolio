@@ -1,6 +1,5 @@
 body {
-  background-color:#191765;
-  ;
+  background-color: #191765;
   width: 1440px;
   height: 3651px;
   position: relative;
@@ -538,8 +537,8 @@ ul {
   position: static;
   width: 448px;
   height: 105px;
-  left:0;
-  top:0;
+  left: 0;
+  top: 0;
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: bold;
@@ -551,7 +550,7 @@ ul {
   position: static;
   width: 448px;
   height: 140px;
-  left:0;
+  left: 0;
   top: 129px;
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
@@ -566,8 +565,8 @@ ul {
   position: static;
   width: 448px;
   height: 105px;
-  left:0;
-  top:0;
+  left: 0;
+  top: 0;
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: bold;
@@ -579,7 +578,7 @@ ul {
   position: static;
   width: 448px;
   height: 140px;
-  left:0;
+  left: 0;
   top: 129px;
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
@@ -594,8 +593,8 @@ ul {
   position: static;
   width: 448px;
   height: 105px;
-  left:0;
-  top:0;
+  left: 0;
+  top: 0;
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: bold;
@@ -607,7 +606,7 @@ ul {
   position: static;
   width: 448px;
   height: 140px;
-  left:0;
+  left: 0;
   top: 129px;
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
@@ -621,8 +620,8 @@ ul {
   position: static;
   width: 230px;
   height: 40px;
-  left:0;
-  top:0;
+  left: 0;
+  top: 0;
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: bold;
@@ -635,19 +634,19 @@ ul {
 }
 
 .div-divider2 > p {
-position: static;
-width: 684px;
-height: 61px;
-left:0;
-top: 80px;
-font-family: 'Times New Roman', Times, serif;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-color: #EBEBFF;
-padding-left: 20%;
+  position: static;
+  width: 684px;
+  height: 61px;
+  left: 0;
+  top: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  padding-left: 20%;
 }
 
 .form-div {
@@ -663,8 +662,6 @@ padding-left: 20%;
   align-items: center;
   padding: 12px;
   position: static;
-  width: 160px;
-  height: 48px;
   left: 262px;
   top: 705px;
   background: #9390ff;
@@ -683,11 +680,11 @@ padding-left: 20%;
 
 .contact2 > a {
   text-decoration: none;
-  color: #EBEBFF;
+  color: #ebebff;
 }
 
 .contact2 {
   padding-top: 5%;
   display: flex;
-  color: #EBEBFF;
+  color: #ebebff;
 }
