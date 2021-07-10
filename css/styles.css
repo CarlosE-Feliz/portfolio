@@ -14,7 +14,7 @@ ul {
   display: flex;
   flex-direction: column;
   padding-left: 2px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .header {
@@ -28,7 +28,7 @@ ul {
 
 .anchor {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .anchor:hover {
@@ -63,7 +63,7 @@ ul {
 
 .name > a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .carlosfeliz {
@@ -160,7 +160,7 @@ ul {
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: bold;
-  color: #9390FF;
+  color: #9390ff;
 }
 
 .support-text {
@@ -254,8 +254,8 @@ ul {
 }
 
 .div-divider > h3 {
-  color: #9390FF;
-  font-family: Roboto;
+  color: #9390ff;
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
@@ -534,13 +534,13 @@ ul {
 }
 
 .item2 > h2 {
-  color: #FFFFFF;
+  color: #fff;
   position: static;
   width: 448px;
   height: 105px;
-  left: 0px;
-  top: 0px;
-  font-family: Roboto;
+  left:0;
+  top:0;
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -551,24 +551,24 @@ ul {
   position: static;
   width: 448px;
   height: 140px;
-  left: 0px;
+  left:0;
   top: 129px;
-  font-family: Roboto;
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
-  color: #DFE1E6;
+  color: #dfe1e6;
 }
 
 .item3 > h2 {
-  color: #FFFFFF;
+  color: #fff;
   position: static;
   width: 448px;
   height: 105px;
-  left: 0px;
-  top: 0px;
-  font-family: Roboto;
+  left:0;
+  top:0;
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -579,24 +579,24 @@ ul {
   position: static;
   width: 448px;
   height: 140px;
-  left: 0px;
+  left:0;
   top: 129px;
-  font-family: Roboto;
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
-  color: #DFE1E6;
+  color: #dfe1e6;
 }
 
 .item6 > h2 {
-  color: #FFFFFF;
+  color: #fff;
   position: static;
   width: 448px;
   height: 105px;
-  left: 0px;
-  top: 0px;
-  font-family: Roboto;
+  left:0;
+  top:0;
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -607,23 +607,23 @@ ul {
   position: static;
   width: 448px;
   height: 140px;
-  left: 0px;
+  left:0;
   top: 129px;
-  font-family: Roboto;
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
-  color: #DFE1E6;
+  color: #dfe1e6;
 }
 
 .div-divider2 > h3 {
   position: static;
   width: 230px;
   height: 40px;
-  left: 0px;
-  top: 0px;
-  font-family:Roboto;
+  left:0;
+  top:0;
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -631,16 +631,16 @@ ul {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #9390FF;
+  color: rgba(147, 144, 255, 1);
 }
 
 .div-divider2 > p {
 position: static;
 width: 684px;
 height: 61px;
-left: 0px;
+left:0;
 top: 80px;
-font-family: Roboto;
+font-family: 'Times New Roman', Times, serif;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
@@ -667,7 +667,7 @@ padding-left: 20%;
   height: 48px;
   left: 262px;
   top: 705px;
-  background: #9390FF;
+  background: #9390ff;
 }
 
 .form {
@@ -677,7 +677,7 @@ padding-left: 20%;
 .form input {
   height: 50px;
   width: 495px;
-  background: #FFFFFF;
+  background: #fff;
   border-radius: 2px;
 }
 
