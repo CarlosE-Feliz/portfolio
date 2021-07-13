@@ -129,6 +129,11 @@ button:disabled {
   padding-bottom: 1em;
   text-align: left;
   border-bottom: 1px solid #646369;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 2em;
+  height: 20vh;
+  margin-bottom: 1em;
 }
 
 .logo {
@@ -169,12 +174,23 @@ button:disabled {
   align-content: center;
 }
 
+.section1 {
+  background: url(media/ellipse1.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin-right: 1px;
+  margin-bottom: 10px;
+}
+
 .section2 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   margin-left: 2px;
+  background: url(media/ellipse2.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 
 .title {
@@ -216,6 +232,9 @@ button:disabled {
   grid-template-columns: 100%;
   grid-template-rows: auto;
   padding-top: 60px;
+  background: url(media/ellipse3.svg), url(media/ellipse4.svg), url(media/ellipse5.svg), url(media/ellipse6.svg);
+  background-repeat: no-repeat;
+  background-position: left top, right 25%, left center, right 75%;
 }
 
 .project {
