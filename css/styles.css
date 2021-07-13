@@ -26,35 +26,12 @@ a {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-i {
-  color: #edecff;
-  font-size: 100px;
-}
-
 h1 {
   color: #7d73fc;
   font-weight: bold;
   font-size: 48px;
   margin-top: 63px;
   margin-bottom: 1px;
-}
-
-h2 {
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 130%;
-  color: #9490ff;
-  padding-left: 1em;
-  padding-bottom: 1em;
-  text-align: left;
-  border-bottom: 1px solid #646369;
 }
 
 h3 {
@@ -122,6 +99,14 @@ button {
   color: #edecff;
 }
 
+h2 {
+  color: #7d73fc;
+  font-weight: bold;
+  font-size: 48px;
+  margin-top: 63px;
+  margin-bottom: 1px;
+}
+
 button:hover {
   background: #7d73fc;
   box-shadow: 1px 8px 16px rgba(125, 115, 252, 0.48);
@@ -133,6 +118,17 @@ button:active {
 
 button:disabled {
   background: #2a2b33;
+}
+
+.recent-work {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 130%;
+  color: #9490ff;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  text-align: left;
+  border-bottom: 1px solid #646369;
 }
 
 .logo {
@@ -241,4 +237,40 @@ button:disabled {
   padding: 10px;
   margin: auto;
   border-right: 1px solid #646369;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-footer {
+  background-color: #fff;
+  width: 327px;
+  height: 48px;
+  color: #000;
+}
+
+.form-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textarea-footer {
+  background: #fff;
+  width: 327px;
+  height: 148px;
+  color: #000;
+}
+
+.button-footer {
+  margin: 10px 5px;
+}
+
+.footer-handles {
+  width: 200px;
+  height: 40px;
+  left: 88px;
 }
