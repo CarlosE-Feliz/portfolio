@@ -315,25 +315,31 @@ button:disabled {
   .input-name {
     display: block;
   }
+  
   .div-footer {
     display: flex;
   }
   .form-footer > li > input {
     width: 685px;
   }
+
   .form-footer > li {
     width: 698px;
   }
+
   .form-footer > li > textarea {
     width: 685px;
   }
+
   .li-button {
     display: flex;
     justify-content: center;
   }
+
   .menu {
     visibility: visible;
   }
+
   .section4 {
     display: grid;
     grid-template-rows: min-content;
@@ -343,41 +349,51 @@ button:disabled {
     margin-right: 0;
     margin-left: 0;
   }
+
   .section4 > div {
     grid-column: 1/4;
   }
+
   .section4 > div:nth-child(odd) {
     grid-column: 1/4;
     flex-direction: row-reverse;
   }
+
   .section4 > div h2 {
     max-width: 10em;
     padding-left: 10vw;
   }
+
   .footer-contact {
     display: none;
   }
+
   .cont-email {
     display: block;
   }
+
   .project {
     max-width: 80em;
     margin: unset;
     flex-direction: row;
     align-items: flex-end;
   }
+
   .project > * {
     max-height: min-content;
     padding: unset;
     width: 80vw;
   }
+
   .project > img {
     width: 684px;
     height: 448px;
   }
+
   .arrow {
     display: block;
   }
+
   .info {
     max-width: 448px;
     height: 405px;
@@ -386,6 +402,7 @@ button:disabled {
     align-items: flex-start;
     margin-left: 1em;
   }
+  
   .info > p {
     flex: none;
     flex-grow: 0;
@@ -394,48 +411,61 @@ button:disabled {
     text-align: start;
     flex: 1;
   }
+
   .languages {
     width: min-content;
   }
+
   .handles > li h4 {
     display: block;
   }
+
   .nav > ul > i:first-of-type {
     display: none;
   }
+
   .section3 > h4 {
     display: none;
   }
+
   .nav {
     justify-content: flex-end;
   }
+
   .nav > i:not(:first-of-type) {
     display: block;
     justify-content: flex-end;
     padding-right: 2rem;
   }
+
   .nav > h1:first-of-type {
     justify-self: right;
     text-align: left;
     padding-right: 50%;
     margin-top: 0;
   }
+
   .nav > * {
     padding-left: 2em;
   }
+  
   .section2 {
     justify-content: center;
   }
+
   .handles > li h4 {
     margin-right: 20vw;
     margin-left: 20vw;
   }
+
   .section2 > ul {
     max-width: min-content;
   }
+
   p {
     max-width: 62vw;
   }
+  
   .menu {
     display: block;
   }
