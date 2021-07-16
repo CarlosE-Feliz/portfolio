@@ -1,7 +1,6 @@
 * {
   color: rgb(240, 238, 238);
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   background: none;
 }
 
@@ -233,8 +232,7 @@ button:disabled {
   grid-template-columns: 100%;
   grid-template-rows: auto;
   padding-top: 60px;
-  background: url(media/ellipse3.svg), url(media/ellipse4.svg),
-    url(media/ellipse5.svg), url(media/ellipse6.svg);
+  background: url(media/ellipse3.svg), url(media/ellipse4.svg), url(media/ellipse5.svg), url(media/ellipse6.svg);
   background-repeat: no-repeat;
   background-position: left top, right 25%, left center, right 75%;
 }
@@ -319,6 +317,7 @@ button:disabled {
   .div-footer {
     display: flex;
   }
+
   .form-footer > li > input {
     width: 685px;
   }
@@ -337,7 +336,7 @@ button:disabled {
   }
 
   .menu {
-    visibility: visible;
+    display: block;
   }
 
   .section4 {
@@ -373,7 +372,6 @@ button:disabled {
   }
 
   .project {
-    max-width: 80em;
     margin: unset;
     flex-direction: row;
     align-items: flex-end;
@@ -406,7 +404,7 @@ button:disabled {
   .info > p {
     flex: none;
     flex-grow: 0;
-    margin: 24px 0px;
+    margin: 24px 0;
     margin: 1em 1px 1em 1px;
     text-align: start;
     flex: 1;
@@ -416,16 +414,18 @@ button:disabled {
     width: min-content;
   }
 
-  .handles > li h4 {
+  .handles > li > h4 {
     display: block;
   }
 
-  .nav > ul > i:first-of-type {
+  #menu {
     display: none;
   }
 
   .section3 > h4 {
     display: none;
+    margin-right: 20vw;
+    margin-left: 20vw;
   }
 
   .nav {
@@ -453,20 +453,11 @@ button:disabled {
     justify-content: center;
   }
 
-  .handles > li h4 {
-    margin-right: 20vw;
-    margin-left: 20vw;
-  }
-
   .section2 > ul {
     max-width: min-content;
   }
 
-  p {
+  .info>p {
     max-width: 62vw;
-  }
-  
-  .menu {
-    display: block;
   }
 }
