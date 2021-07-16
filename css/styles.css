@@ -299,7 +299,7 @@ button:disabled {
     url(media/ellipse5.svg),
     url(media/ellipse6.svg);
   background-repeat: no-repeat;
-  background-position: 
+  background-position:
     left top,
     right 25%,
     left center,
@@ -524,21 +524,23 @@ button:disabled {
     justify-content: center;
   }
 
-  .nav {
-    justify-content: flex-end;
-  }
-  
   .nav > p:first-of-type {
     justify-self: right;
     text-align: left;
     padding-right: 60vw;
   }
 
-  .nav > p:not(:first-of-type),
-  i:not(:first-of-type) {
+  .nav > p :not(:first-of-type) {
     display: block;
     justify-self: flex-end;
     padding-right: 2em;
+  }
+
+  .nav > i :not(:first-of-type) {
+    display: block;
+    justify-self: flex-end;
+    padding-right: 2em;
+
   }
 
   .nav > i:first-of-type {
@@ -555,5 +557,5 @@ button:disabled {
 
   .header {
     background-position: 2em top;
-}
+  }
 }
