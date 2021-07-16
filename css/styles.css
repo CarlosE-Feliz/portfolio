@@ -215,9 +215,14 @@ button:disabled {
   display: none;
 }
 
+.flex {
+  display: flex;
+}
+
 .handles {
   justify-content: center;
   border-bottom: transparent;
+  justify-content: space-around;
 }
 
 .handles > * {
@@ -313,9 +318,10 @@ button:disabled {
   .input-name {
     display: block;
   }
-  
+
   .div-footer {
     display: flex;
+    justify-content: center;
   }
 
   .form-footer > li > input {
@@ -400,13 +406,12 @@ button:disabled {
     align-items: flex-start;
     margin-left: 1em;
   }
-  
+
   .info > p {
     flex: none;
     margin: 24px 0;
     margin: 1em 1px 1em 1px;
     text-align: start;
-    flex: 1;
     max-width: 62vw;
   }
 
@@ -457,4 +462,7 @@ button:disabled {
     max-width: min-content;
   }
 
+  #work {
+    display: none;
+  }
 }

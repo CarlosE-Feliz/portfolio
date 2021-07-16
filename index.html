@@ -13,7 +13,7 @@
 <body class="container body">
     <header class="container nav">
         <h1 class="log"><a href="index.html">CarlosFeliz</a></h1>
-        <ul style="display: flex;">
+        <ul class="flex">
             <li class="menu"><a href="#">Portfolio</a></li>
             <li class="menu"><a href="#">About</a></li>
             <li class="menu"><a href="#">Contact</a></li>
@@ -77,7 +77,7 @@
                     <h4 class="arrow">↓ Work</h4>
                 </li>
             </ul>
-            <h4>↓ Work</h4>
+            <h4 id="work">↓ Work</h4>
         </section>
         <section class="grid section4">
             <div class="recent-work">
@@ -152,16 +152,14 @@
             </section>
 
             <section>
-                <form action="https://formspree.io/f/mayadowe" method="POST">
-                    <ul class="form-footer">
-                        <li class="div-footer">
-                            <li>
-                                <input type="text" class="input-footer" autocomplete="off" required="" name="name" placeholder="Name" maxlength="30">
-                            </li>
-                            <li>
-                                <input type="text" class="input-footer input-name" name="lastname" autocomplete="off" placeholder="Last Name" maxlength="30">
-                            </li>
-                        </li>
+                <form action="https://formspree.io/f/mayadowe"   method="POST">
+                    
+                        <div class="div-footer">
+                            <input type="text" class="input-footer" autocomplete="off" required="" name="name" placeholder="Name" maxlength="30">
+                            <input type="text" class="input-footer input-name" name="lastname" autocomplete="off" placeholder="Last Name" maxlength="30">
+                        </div>
+                           
+                          <ul class="form-footer">
                         <li>
                             <input type="email" class="input-footer" autocomplete="off" required name="email" placeholder="nama@gmail.com" />
                         </li>
@@ -171,7 +169,7 @@
                         <li class="li-button">
                             <button type="submit" class="button-footer">See Project</button>
                         </li>
-                    </ul>
+                          </ul>
                 </form>
 
                 <ul class="container footer-handles">
