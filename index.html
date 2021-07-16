@@ -12,16 +12,12 @@
 
 <body class="container body">
     <header class="container nav">
-        <h1 class="log"><a href="index.html">CarlosFeliz</a></h1>
-        <ul class="flex">
-            <li class="menu"><a href="#">Portfolio</a></li>
-            <li class="menu"><a href="#">About</a></li>
-            <li class="menu"><a href="#">Contact</a></li>
-            <li class="menu"><i class="material-icons">mail_outline</i> </li>
-        </ul>
-        <i id="menu" class="material-icons">menu</i>
-
-
+      <p class="log"><a href="index.html">Carlos Feliz</a></p>
+      <p class="log"><a href="index.html">Portfolio</a></p>
+      <p class="log"><a href="index.html">About</a></p>
+      <p class="log"><a href="index.html">Contact</a></p>
+      <i class="material-icons">menu</i>
+      <i class="material-icons">email</i>
     </header>
     <main>
         <section class="container section1">
@@ -31,7 +27,9 @@
                 This is the beginning of my portfolio as a software developer, I will be adding projects as I learn with microverse
             </p>
         </section>
+        <hr class="line"/>
         <section class="container section2">
+          
             <ul>
                 <li class="title">Language</li>
                 <li>Javascript</li>
@@ -55,34 +53,37 @@
                 <li>Gitlab</li>
                 <li>Terminal</li>
             </ul>
-        </section>
+        </section> 
+        <hr class="line"/>
         <section class="grid section3">
-            <ul class="container handles">
-                <li>
-                    <h4 class="arrow">↓ Work</h4>
-                </li>
-                <li>
-                    <a href="#"><img src="icons/github.svg" alt="github" /></a>
-                </li>
-                <li>
-                    <a href="#"><img src="icons/linkedin.svg" alt="linkedin" /></a>
-                </li>
-                <li>
-                    <a href="#"><img src="icons/twitter.svg" alt="twitter" /></a>
-                </li>
-                <li>
-                    <a href="#"><img src="icons/m.svg" alt="m" /></a>
-                </li>
-                <li>
-                    <h4 class="arrow">↓ Work</h4>
-                </li>
-            </ul>
+          <ul class="container handles">
+            <li>
+                <h4 class="arrow">↓ Work</h4>
+            </li>
+            <li>
+                <a href="#"><img src="icons/github.svg" alt="github" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="icons/linkedin.svg" alt="linkedin" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="icons/twitter.svg" alt="twitter" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="icons/m.svg" alt="m" /></a>
+            </li>
+            <li>
+                <h4 class="arrow">↓ Work</h4>
+            </li>
+        </ul>
             <h4 id="work">↓ Work</h4>
         </section>
         <section class="grid section4">
             <div class="recent-work">
-                <h2>RECENT WORK</h2>
+                <h2>MY RECENT WORK</h2>
+                <hr class="line2"/>
             </div>
+            
             <div class="container project">
                 <img src="css/media/tuseeg.png" width="327" height="200" alt="placeholder" />
                 <div class="info">
@@ -144,22 +145,17 @@
     <section class="footer-section">
     <footer class="flex-footer">
         
-            <section>
+            <section class="">
                 <h2>CONTACT US</h2>
                 <p>
-                    If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
+                If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
                 </p>
             </section>
 
             <section>
-                <form action="https://formspree.io/f/mayadowe"   method="POST">
-                    
-                        <div class="div-footer">
-                            <input type="text" class="input-footer" autocomplete="off" required="" name="name" placeholder="Name" maxlength="30">
-                            <input type="text" class="input-footer input-name" name="lastname" autocomplete="off" placeholder="Last Name" maxlength="30">
-                        </div>
-                           
-                          <ul class="form-footer">
+                <form action="https://formspree.io/f/mayadowe" class="container"  method="POST">
+                  <ul class="ul-footer">
+                        <li><input type="text" class="input-footer" autocomplete="off" required="" name="name" placeholder="Name" maxlength="30"></li>
                         <li>
                             <input type="email" class="input-footer" autocomplete="off" required name="email" placeholder="nama@gmail.com" />
                         </li>
@@ -171,6 +167,7 @@
                         </li>
                           </ul>
                 </form>
+                <hr>
 
                 <ul class="container footer-handles">
                     <li>
@@ -187,6 +184,7 @@
                     </li>
                     <li><p class="cont-email">cfelizmedina@gmail.com</p></li>
                 </ul>
+                
                 <br />
                 <p class="footer-contact">cfelizmedina@gmail.com</p>
             </section>
