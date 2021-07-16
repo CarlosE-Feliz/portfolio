@@ -62,6 +62,41 @@ ul {
   margin: 10px;
 }
 
+input,
+textarea {
+  all: unset;
+  width: 550px;
+  margin-top: 39px;
+  height: 30px;
+  padding: 1em;
+  font-family: Inter, sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  background-color: #fff;
+  color: rgb(20, 20, 20);
+}
+
+input[type="text"] {
+  margin-top: 1px;
+}
+
+textarea {
+  height: 114px;
+}
+
+input ::placeholder {
+  color: #81818c;
+}
+
+body {
+  background:
+    #191765
+    url(media/circle\ 1\ header.svg);
+  background-repeat: no-repeat;
+  background-position: right 15em;
+}
+
 button {
   all: unset;
   align-self: flex-start;
@@ -117,7 +152,6 @@ button:disabled {
   padding-left: 1em;
   padding-bottom: 1em;
   text-align: left;
-  border-bottom: 1px solid #646369;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 2em;
@@ -127,6 +161,10 @@ button:disabled {
 
 .nav > h1 {
   margin-top: 2px;
+}
+
+.footerp {
+  padding-left: 580px;
 }
 
 .logo {
@@ -140,14 +178,28 @@ button:disabled {
   margin: 1px;
 }
 
+.ul-footer {
+  width: 50%;
+}
+
+.ul-footer > li {
+  width: 100%;
+}
+
+.ul-footer > li > input {
+  width: 100%;
+}
+
+.ul-footer > li > textarea {
+  width: 100%;
+}
+
 .container {
   width: 100vw;
-  background: #191765;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-bottom: 1px solid #646369;
   margin: 1px;
 }
 
@@ -167,9 +219,9 @@ button:disabled {
 }
 
 .section1 {
-  background: url(media/ellipse1.svg);
+  background: url(media/circle\ 1\ header.svg);
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: 3em top ;
   margin-right: 1px;
   margin-bottom: 10px;
 }
@@ -180,9 +232,6 @@ button:disabled {
   justify-content: space-between;
   align-items: flex-start;
   margin-left: 2px;
-  background: url(media/ellipse2.svg);
-  background-repeat: no-repeat;
-  background-position: top right;
 }
 
 .title {
@@ -192,6 +241,15 @@ button:disabled {
   margin: 20px;
   text-align: left;
 }
+
+.line {
+  width: 30%;
+}
+
+.line2 {
+  width: 90%;
+}
+
 
 .subtitle {
   font-size: 26px;
@@ -220,8 +278,8 @@ button:disabled {
 }
 
 .handles {
+  justify-content: center;
   border-bottom: transparent;
-  justify-content: space-around;
 }
 
 .handles > * {
@@ -234,11 +292,18 @@ button:disabled {
 
 .section4 {
   grid-template-columns: 100%;
-  grid-template-rows: auto;
+  grid-template-rows: min-content;
   padding-top: 60px;
-  background: url(media/ellipse3.svg), url(media/ellipse4.svg), url(media/ellipse5.svg), url(media/ellipse6.svg);
+  background: url(media/ellipse3.svg),
+    url(media/ellipse4.svg),
+    url(media/ellipse5.svg), 
+    url(media/ellipse6.svg);
   background-repeat: no-repeat;
-  background-position: left top, right 25%, left center, right 75%;
+  background-position: 
+    left top, 
+    right 25%, 
+    left center, 
+    right bottom;
 }
 
 .project {
@@ -270,6 +335,7 @@ button:disabled {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 250px;
 }
 
 .input-footer {
@@ -347,7 +413,7 @@ button:disabled {
   .section4 {
     display: grid;
     grid-template-rows: min-content;
-    grid-template-columns: repeat(4, 20vw);
+    /* grid-template-columns: repeat(4, 20vw); */
     grid-gap: 2em;
     margin: 1px 10vw 1px 10vw;
     margin-right: 0;
@@ -420,6 +486,8 @@ button:disabled {
 
   .handles > li > h4 {
     display: block;
+    margin-right: 20vw;
+    margin-left: 20vw;
   }
 
   #menu {
@@ -457,6 +525,31 @@ button:disabled {
     justify-content: center;
   }
 
+  .nav {
+    justify-content: flex-end;
+  }
+
+  .nav > * {
+    padding-left: 1em;
+  }
+
+  .nav > p:first-of-type {
+    justify-self: right;
+    text-align: left;
+    padding-right: 60vw;
+  }
+
+  .nav > p:not(:first-of-type),
+  i:not(:first-of-type) {
+    display: block;
+    justify-self: flex-end;
+    padding-right: 2em;
+  }
+
+  .nav > i:first-of-type {
+    display: none;
+  }
+
   .section2 > ul {
     max-width: min-content;
   }
@@ -464,4 +557,10 @@ button:disabled {
   #work {
     display: none;
   }
+
+  .header {
+    background-position: 2em top;
+}
+
+
 }
