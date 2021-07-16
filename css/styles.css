@@ -540,7 +540,6 @@ button:disabled {
     display: block;
     justify-self: flex-end;
     padding-right: 2em;
-
   }
 
   .nav > i:first-of-type {
