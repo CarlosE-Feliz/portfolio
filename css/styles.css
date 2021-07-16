@@ -220,7 +220,6 @@ button:disabled {
 }
 
 .handles {
-  justify-content: center;
   border-bottom: transparent;
   justify-content: space-around;
 }
