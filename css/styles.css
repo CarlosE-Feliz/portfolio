@@ -403,11 +403,11 @@ button:disabled {
   
   .info > p {
     flex: none;
-    flex-grow: 0;
     margin: 24px 0;
     margin: 1em 1px 1em 1px;
     text-align: start;
     flex: 1;
+    max-width: 62vw;
   }
 
   .languages {
@@ -422,7 +422,7 @@ button:disabled {
     display: none;
   }
 
-  .section3 > h4 {
+  .section3 > li > h4 {
     display: none;
     margin-right: 20vw;
     margin-left: 20vw;
@@ -448,7 +448,7 @@ button:disabled {
   .nav > * {
     padding-left: 2em;
   }
-  
+
   .section2 {
     justify-content: center;
   }
@@ -457,7 +457,4 @@ button:disabled {
     max-width: min-content;
   }
 
-  .info>p {
-    max-width: 62vw;
-  }
 }
