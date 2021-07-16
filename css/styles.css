@@ -221,7 +221,7 @@ button:disabled {
 .section1 {
   background: url(media/circle\ 1\ header.svg);
   background-repeat: no-repeat;
-  background-position: 3em top ;
+  background-position: 3em top;
   margin-right: 1px;
   margin-bottom: 10px;
 }
@@ -249,7 +249,6 @@ button:disabled {
 .line2 {
   width: 90%;
 }
-
 
 .subtitle {
   font-size: 26px;
@@ -294,15 +293,16 @@ button:disabled {
   grid-template-columns: 100%;
   grid-template-rows: min-content;
   padding-top: 60px;
-  background: url(media/ellipse3.svg),
+  background:
+    url(media/ellipse3.svg),
     url(media/ellipse4.svg),
-    url(media/ellipse5.svg), 
+    url(media/ellipse5.svg),
     url(media/ellipse6.svg);
   background-repeat: no-repeat;
   background-position: 
-    left top, 
-    right 25%, 
-    left center, 
+    left top,
+    right 25%,
+    left center,
     right bottom;
 }
 
@@ -413,7 +413,6 @@ button:disabled {
   .section4 {
     display: grid;
     grid-template-rows: min-content;
-    /* grid-template-columns: repeat(4, 20vw); */
     grid-gap: 2em;
     margin: 1px 10vw 1px 10vw;
     margin-right: 0;
@@ -528,11 +527,7 @@ button:disabled {
   .nav {
     justify-content: flex-end;
   }
-
-  .nav > * {
-    padding-left: 1em;
-  }
-
+  
   .nav > p:first-of-type {
     justify-self: right;
     text-align: left;
@@ -561,6 +556,4 @@ button:disabled {
   .header {
     background-position: 2em top;
 }
-
-
 }
