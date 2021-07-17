@@ -294,7 +294,7 @@ button:disabled {
   grid-template-rows: min-content;
   padding-top: 60px;
   background:
-    url(media/ellipse3.svg),
+    url(media/Ellipse\ 19.svg),
     url(media/ellipse4.svg),
     url(media/ellipse5.svg),
     url(media/ellipse6.svg);
@@ -304,6 +304,14 @@ button:disabled {
     right 25%,
     left center,
     right bottom;
+}
+
+.imagen {
+  transition: all 500ms ease;
+}
+
+.imagen:hover {
+  transform: scale(1.2);
 }
 
 .project {
