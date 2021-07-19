@@ -398,13 +398,12 @@ button:disabled {
 }
 
 @media only screen and (min-width: 1000px) {
-
   body {
     background:
       #191765
       url(media/circle\ 1\ header.svg);
     background-repeat: no-repeat;
-    background-position: right 20em ;
+    background-position: right 20em;
   }
 
 
@@ -435,6 +434,12 @@ button:disabled {
       right 25%,
       left center,
       right bottom;
+      display: grid;
+    grid-template-rows: min-content;
+    grid-gap: 2em;
+    margin: 1px 10vw 1px 10vw;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .div-footer {
@@ -461,15 +466,6 @@ button:disabled {
 
   .menu {
     display: block;
-  }
-
-  .section4 {
-    display: grid;
-    grid-template-rows: min-content;
-    grid-gap: 2em;
-    margin: 1px 10vw 1px 10vw;
-    margin-right: 0;
-    margin-left: 0;
   }
 
   .section4 > div {
@@ -588,13 +584,6 @@ button:disabled {
     display: block;
     justify-content: flex-end;
     padding-right: 2rem;
-  }
-
-
-  .nav > i:not(:first-of-type) {
-    display: block;
-    justify-self: flex-end;
-    padding-right: 2em;
   }
 
   .nav > i:first-of-type {
