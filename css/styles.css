@@ -94,7 +94,7 @@ body {
     #191765
     url(media/circle\ 1\ header.svg);
   background-repeat: no-repeat;
-  background-position: right 15em;
+  background-position: 22em 35em;
 }
 
 button {
@@ -221,7 +221,7 @@ button:disabled {
 .section1 {
   background: url(media/circle\ 1\ header.svg);
   background-repeat: no-repeat;
-  background-position: 3em top;
+  background-position: -10em top;
   margin-right: 1px;
   margin-bottom: 10px;
 }
@@ -331,12 +331,22 @@ button:disabled {
   display: none;
 }
 
+.nav > i:not(:first-of-type) {
+  display: none;
+}
+
 .languages > * {
   width: min-content;
   height: 40px;
   padding: 10px;
   margin: auto;
   border-right: 1px solid #646369;
+}
+
+.nav > p:not(:first-of-type) {
+  display: none;
+  justify-content: flex-end;
+  padding-right: 2rem;
 }
 
 .footer-section {
@@ -388,8 +398,43 @@ button:disabled {
 }
 
 @media only screen and (min-width: 1000px) {
+
+  body {
+    background:
+      #191765
+      url(media/circle\ 1\ header.svg);
+    background-repeat: no-repeat;
+    background-position: right 20em ;
+  }
+
+
   .input-name {
     display: block;
+  }
+
+  .section1 {
+    background: url(media/circle\ 1\ header.svg);
+    background-repeat: no-repeat;
+    background-position: 1em top;
+    margin-right: 1px;
+    margin-bottom: 10px;
+  }
+
+  .section4 {
+    grid-template-columns: 100%;
+    grid-template-rows: min-content;
+    padding-top: 60px;
+    background:
+      url(media/Ellipse\ 19.svg),
+      url(media/ellipse4.svg),
+      url(media/ellipse5.svg),
+      url(media/ellipse6.svg);
+    background-repeat: no-repeat;
+    background-position:
+      left top,
+      right 25%,
+      left center,
+      right bottom;
   }
 
   .div-footer {
@@ -535,16 +580,18 @@ button:disabled {
   .nav > p:first-of-type {
     justify-self: right;
     text-align: left;
-    padding-right: 60vw;
+    padding-right: 57vw;
   }
 
-  .nav > p :not(:first-of-type) {
+  
+  .nav > p:not(:first-of-type) {
     display: block;
-    justify-self: flex-end;
-    padding-right: 2em;
+    justify-content: flex-end;
+    padding-right: 2rem;
   }
 
-  .nav > i :not(:first-of-type) {
+
+  .nav > i:not(:first-of-type) {
     display: block;
     justify-self: flex-end;
     padding-right: 2em;
