@@ -405,7 +405,7 @@ button:disabled {
     background-repeat: no-repeat;
     background-position: right 20em;
   }
-  
+
   .input-name {
     display: block;
   }
@@ -576,7 +576,7 @@ button:disabled {
     text-align: left;
     padding-right: 57vw;
   }
-  
+
   .nav > p:not(:first-of-type) {
     display: block;
     justify-content: flex-end;
