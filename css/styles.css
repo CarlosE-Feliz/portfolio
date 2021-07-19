@@ -405,8 +405,7 @@ button:disabled {
     background-repeat: no-repeat;
     background-position: right 20em;
   }
-
-
+  
   .input-name {
     display: block;
   }
@@ -434,8 +433,7 @@ button:disabled {
       right 25%,
       left center,
       right bottom;
-      display: grid;
-    grid-template-rows: min-content;
+    display: grid;
     grid-gap: 2em;
     margin: 1px 10vw 1px 10vw;
     margin-right: 0;
@@ -578,7 +576,6 @@ button:disabled {
     text-align: left;
     padding-right: 57vw;
   }
-
   
   .nav > p:not(:first-of-type) {
     display: block;
