@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My Protfolio😁😎
+# My Portfolio😁😎
 
 
 
