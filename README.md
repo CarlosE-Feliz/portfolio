@@ -2,6 +2,7 @@
 
 # My Protfolio😁😎
 
+Add a mobile menu using our recently acquired JavaScript knowledge.
 
 
 ## Built With
@@ -9,6 +10,7 @@
 - HTML
 - CSS
 - Git
+- JavaScript
 
 ## Getting Started
 
@@ -24,8 +26,10 @@ To get a local copy up and running follow these simple example steps.
 ## Authors
 
 👤 **Carlos Feliz**
+👤 **Hamza el laouzi**
 
 - GitHub: [@xJokeer](https://github.com/xJokeer)
+- GitHub: [@Hamzaoutdoors](https://github.com/Hamzaoutdoors)
 
 ## 🤝 Contributing
 
