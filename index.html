@@ -8,25 +8,26 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){window.dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', '279946844');
-</script>
 </head>
 
 <body class="container body">
-    <header class="container nav">
-      <p class="log"><a href="index.html">Carlos Feliz</a></p>
-      <p class="log"><a href="index.html">Portfolio</a></p>
-      <p class="log"><a href="index.html">About</a></p>
-      <p class="log"><a href="index.html">Contact</a></p>
-      <i class="material-icons">menu</i>
-      <i class="material-icons email">email</i>
+    <header class="nav ">
+        <div class="div-menu">
+            <div class="logo">
+                <a  href="#">Carlos Feliz</a>
+            </div>
+            <div class="btn">
+                <span >&#9776</span>
+            </div>
+            <ul class="menu" id="menu"> 
+                 <li><a href="#">Portfolio</a></li>
+                  <li><a href="#about">About</a></li>
+                 <li> <a href="#contact">Contact</a></li>
+               
+                <li> <i class="material-icons" id="email">email</i> </li>
+            </ul>
+        </div>
     </header>
     <main>
         <section class="container section1">
@@ -87,14 +88,14 @@
         </ul>
             <h4 id="work">↓ Work</h4>
         </section>
-        <section class="grid section4">
+        <section class="grid section4" id="About">
             <div class="recent-work">
                 <h2>MY RECENT WORK</h2>
                 <hr class="line2"/>
             </div>
             
             <div class="container project">
-                <img src="css/media/tuseeg.png" class="imagen"  width="327" height="200" alt="placeholder" />
+                  <img src="css/media/tuseeg.png" class="imagen"  width="300" height="200" alt="placeholder" />
                 <div class="info">
                     <h3>Tu Seg insurance brokers</h3>
                     <p>Website inspired by the insurance company TUSEG</p>
@@ -108,7 +109,7 @@
                 </div>
             </div>
             <div class="container project">
-                <img src="https://st.depositphotos.com/1775533/1288/i/950/depositphotos_12884387-stock-photo-blind-man.jpg" class="imagen" height="200" width="384" alt="placeholder" />
+                <img src="https://st.depositphotos.com/1775533/1288/i/950/depositphotos_12884387-stock-photo-blind-man.jpg" class="imagen" height="200" width="300" alt="placeholder" />
                 <div class="info">
                     <h3>About the project</h3>
                     <p>Description of the proyect, date and languages</p>
@@ -151,15 +152,15 @@
             </div>
         </section>
     </main>
-    <section class="footer-section">
+    <section class="footer-section" id="contact">
     <footer class="flex-footer">
         
-            <section class="">
+            <article>
                 <h2>CONTACT US</h2>
                 <p>
                 If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
                 </p>
-            </section>
+            </article>
 
             <section>
                 <form action="https://formspree.io/f/mayadowe" class="container"  method="POST">
@@ -199,6 +200,6 @@
             </section>
        </footer>
     </section>
-
+    <script src="./js/script.js" defer></script>
 </body>
 </html>
