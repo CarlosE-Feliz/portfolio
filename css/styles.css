@@ -7,6 +7,7 @@
 header {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 section {
@@ -200,17 +201,21 @@ button:hover {
 }
 
 #menu.active {
-  left: 50%;
+  left: -3%;
+  box-shadow: 1px 1px #4037be;
+  
 }
 
 .menu > li {
   padding: 15px 10px;
+  font-size: 40px;
 }
 
 .btn {
   position: absolute;
   left: 90%;
   top: 1.8%;
+  float: left;
 }
 
 span {
@@ -259,17 +264,29 @@ span {
   margin-bottom: 70px;
 }
 
+.close {
+  text-align: end;
+  width: 85%;
+}
+
+.close a {
+  font-size:larger;
+  font-family:monospace;
+}
+
 .menu {
-  left: 420px;
+  left: 620px;
   width: 100vw;
   height: 97.9vh;
   margin: 10px 10px;
   padding: 10px 10px;
   position: fixed;
   transition: all 500ms ease-in;
-  background: url(./media/shape\ mobile\ menu-1.svg) rgba(25, 23, 101, 1);
+  background: url(./media/shapes\ mobile\ menu.svg) rgba(25, 23, 101, 1);
+  background-size:100%;
   background-repeat: no-repeat;
-  background-position: 1em bottom;
+  background-position: top;
+  top: -29px;
 }
 
 .div-menu {
@@ -369,12 +386,6 @@ span {
   padding: 10px;
   margin: auto;
   border-right: 1px solid #646369;
-}
-
-.nav > p:not(:first-of-type) {
-  display: none;
-  justify-content: flex-end;
-  padding-right: 2rem;
 }
 
 .footer-section {
