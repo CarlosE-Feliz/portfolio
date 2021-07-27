@@ -7,7 +7,7 @@
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  width: 100%;
 }
 
 section {
@@ -68,7 +68,7 @@ textarea {
   width: 550px;
   margin-top: 39px;
   height: 30px;
-  padding: 1em;
+  padding: 0.5em;
   font-family: Inter, sans-serif;
   font-weight: normal;
   font-size: 15px;
@@ -108,13 +108,13 @@ button {
   height: 48px;
   left: 12px;
   top: 12px;
-  background: #7d73fc;
+  background: #4037be;
   margin-top: 14px;
   margin-bottom: 34px;
   margin-right: 65vw;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 200%;
   align-items: center;
   justify-content: center;
@@ -132,16 +132,7 @@ h2 {
 }
 
 button:hover {
-  background: #7d73fc;
   box-shadow: 1px 8px 16px rgba(125, 115, 252, 0.48);
-}
-
-button:active {
-  background: #5e42d7;
-}
-
-button:disabled {
-  background: #2a2b33;
 }
 
 .recent-work {
@@ -159,12 +150,12 @@ button:disabled {
   margin-bottom: 1em;
 }
 
-.nav > h1 {
-  margin-top: 2px;
-}
-
 .footerp {
   padding-left: 580px;
+}
+
+.log-d {
+  display: none;
 }
 
 .logo {
@@ -172,14 +163,15 @@ button:disabled {
   font-weight: 500;
   font-size: 18px;
   line-height: 16px;
-  text-align: center;
+  align-items: center;
   letter-spacing: 0.03em;
   color: rgb(240, 238, 238);
   margin: 1px;
+  padding: 10px 2px;
 }
 
 .ul-footer {
-  width: 50%;
+  width: 80%;
 }
 
 .ul-footer > li {
@@ -212,10 +204,29 @@ button:disabled {
   border-bottom: 1px;
 }
 
+#menu.active {
+  left: -3%;
+  box-shadow: 1px 1px #4037be;
+}
+
+.menu > li {
+  padding: 15px 10px;
+  font-size: 40px;
+}
+
+.btn {
+  position: absolute;
+  left: 90%;
+  top: 1.8%;
+  float: left;
+}
+
+span {
+  cursor: pointer;
+}
+
 .nav {
-  border: none;
-  justify-content: space-around;
-  align-content: center;
+  padding: 8px 2px;
 }
 
 .section1 {
@@ -256,8 +267,39 @@ button:disabled {
   margin-bottom: 70px;
 }
 
+.close {
+  text-align: end;
+  width: 85%;
+}
+
+.close a {
+  font-size: larger;
+  font-family: monospace;
+}
+
 .menu {
-  display: none;
+  left: 620px;
+  width: 100vw;
+  height: 97.9vh;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  position: fixed;
+  transition: all 500ms ease-in;
+  background: url(./media/shapes\ mobile\ menu.svg) rgba(25, 23, 101, 1);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  top: -29px;
+}
+
+.div-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo-menu {
+  justify-self: right;
 }
 
 .section3 {
@@ -331,7 +373,13 @@ button:disabled {
   display: none;
 }
 
-.nav > i:not(:first-of-type) {
+.options {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+}
+
+#email {
   display: none;
 }
 
@@ -341,12 +389,6 @@ button:disabled {
   padding: 10px;
   margin: auto;
   border-right: 1px solid #646369;
-}
-
-.nav > p:not(:first-of-type) {
-  display: none;
-  justify-content: flex-end;
-  padding-right: 2rem;
 }
 
 .footer-section {
@@ -418,7 +460,12 @@ button:disabled {
     margin-bottom: 10px;
   }
 
+  .log-d {
+    display: block;
+  }
+
   .section4 {
+    overflow: hidden;
     grid-template-columns: 100%;
     grid-template-rows: min-content;
     padding-top: 60px;
@@ -460,10 +507,6 @@ button:disabled {
   .li-button {
     display: flex;
     justify-content: center;
-  }
-
-  .menu {
-    display: block;
   }
 
   .section4 > div {
@@ -536,10 +579,6 @@ button:disabled {
     margin-left: 20vw;
   }
 
-  #menu {
-    display: none;
-  }
-
   .section3 > li > h4 {
     display: none;
     margin-right: 20vw;
@@ -548,6 +587,8 @@ button:disabled {
 
   .nav {
     justify-content: flex-end;
+    display: flex;
+    width: 100%;
   }
 
   .nav > i:not(:first-of-type) {
@@ -597,5 +638,9 @@ button:disabled {
 
   .header {
     background-position: 2em top;
+  }
+
+  .div-menu {
+    display: none;
   }
 }
