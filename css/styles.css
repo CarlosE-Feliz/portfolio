@@ -154,6 +154,10 @@ button:hover {
   padding-left: 580px;
 }
 
+.log-d {
+  display: none;
+}
+
 .logo {
   font-style: normal;
   font-weight: 500;
@@ -456,6 +460,10 @@ span {
     margin-bottom: 10px;
   }
 
+  .log-d {
+    display: block;
+  }
+
   .section4 {
     overflow: hidden;
     grid-template-columns: 100%;
@@ -630,5 +638,9 @@ span {
 
   .header {
     background-position: 2em top;
+  }
+
+  .div-menu{
+    display: none;
   }
 }
