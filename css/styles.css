@@ -203,7 +203,6 @@ button:hover {
 #menu.active {
   left: -3%;
   box-shadow: 1px 1px #4037be;
-  
 }
 
 .menu > li {
@@ -270,8 +269,8 @@ span {
 }
 
 .close a {
-  font-size:larger;
-  font-family:monospace;
+  font-size: larger;
+  font-family: monospace;
 }
 
 .menu {
@@ -283,7 +282,7 @@ span {
   position: fixed;
   transition: all 500ms ease-in;
   background: url(./media/shapes\ mobile\ menu.svg) rgba(25, 23, 101, 1);
-  background-size:100%;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: top;
   top: -29px;
