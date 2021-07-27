@@ -107,7 +107,7 @@ button {
   height: 48px;
   left: 12px;
   top: 12px;
-  background: #4037BE;
+  background: #4037be;
   margin-top: 14px;
   margin-bottom: 34px;
   margin-right: 65vw;
@@ -133,7 +133,6 @@ h2 {
 button:hover {
   box-shadow: 1px 8px 16px rgba(125, 115, 252, 0.48);
 }
-
 
 .recent-work {
   font-weight: 500;
@@ -215,7 +214,7 @@ button:hover {
 }
 
 span {
-cursor: pointer;
+  cursor: pointer;
 }
 
 .nav {
@@ -268,11 +267,7 @@ cursor: pointer;
   padding: 10px 10px;
   position: fixed;
   transition: all 500ms ease-in;
-}
-
-.menu {
-  background: url(./media/shape\ mobile\ menu-1.svg),
-  rgba(25, 23, 101, 1);;
+  background: url(./media/shape\ mobile\ menu-1.svg) rgba(25, 23, 101, 1);
   background-repeat: no-repeat;
   background-position: 1em bottom;
 }
@@ -280,11 +275,6 @@ cursor: pointer;
 .div-menu {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-}
-
-.nav {
-  display: flex;
   width: 100%;
 }
 
@@ -579,6 +569,8 @@ cursor: pointer;
 
   .nav {
     justify-content: flex-end;
+    display: flex;
+    width: 100%;
   }
 
   .nav > i:not(:first-of-type) {
