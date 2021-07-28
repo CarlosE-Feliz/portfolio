@@ -681,7 +681,6 @@ span {
 }
 
 .top-side-modal a {
-  
   margin-right: -80px;
   cursor: alias;
 }
@@ -708,10 +707,10 @@ span {
   margin-right: 3%;
   text-align: center;
 }
- 
+
 .modal-div-sources {
   width: 95%;
-  justify-content: center
+  justify-content: center;
 }
 
 .modal-buttons {
