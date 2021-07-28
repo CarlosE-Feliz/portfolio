@@ -721,9 +721,9 @@ span {
 }
 
 .li-menu {
- display: flex;
- justify-content: space-between;
- width: 80%;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
 }
 
 .li-menu p {
