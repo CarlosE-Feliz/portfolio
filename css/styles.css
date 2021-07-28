@@ -649,7 +649,7 @@ span {
   cursor: pointer;
 }
 
-.modal{
+.modal {
   background: rgba(15, 1, 65, 0.16);
   border: 1px solid #fff;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
@@ -662,6 +662,10 @@ span {
   position: absolute;
   border-radius: 5px;
   top: 1%;
+}
+
+.popup-img {
+  width: 100%;
 }
 
 .modal-header {
@@ -696,7 +700,7 @@ span {
   width: 95%;
 }
 
-.modal-div-language .modal-language{
+.modal-div-language .modal-language {
   border-left: 1px rgba(255, 255, 255, 0.16) solid;
   border-right: 1px rgba(255, 255, 255, 0.16) solid;
   margin: 25px 0;
@@ -714,6 +718,5 @@ span {
   background: #4037be;
   margin: 25px 10px;
   border-radius: 5%;
-
+  align-self: center;
 }
-

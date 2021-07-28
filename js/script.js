@@ -44,7 +44,6 @@ function addEventListenerList() {
 
       let techHTML = '';
       for (let l = 0; l < projects[i].tech.length; l += 1) {
-        console.log(projects[i]);
         techHTML += `<li class="modal-language">${projects[i].tech[l]}</li>`;
       }
 
@@ -54,7 +53,7 @@ function addEventListenerList() {
             + '<a class="close-popup">&times;</a>'
            + '</div>'
           + '</section>'
-          + '<div>'
+          + '<div class="popup-img">'
            + `<img src="./media/tuseeg.png" width="350px" src="${projects[projectId].imgUrl}" alt="placeholder>`
           + '</div>'
           + '<section class="modal-section">'
