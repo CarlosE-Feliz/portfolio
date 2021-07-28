@@ -54,7 +54,7 @@ function addEventListenerList() {
            + '</div>'
           + '</section>'
           + '<div class="popup-img">'
-           + `<img src="./media/tuseeg.png" width="350px" src="${projects[projectId].imgUrl}" alt="placeholder>`
+           + `<img src="./media/tuseeg.png" width="330px" src="${projects[projectId].imgUrl}" alt="placeholder>`
           + '</div>'
           + '<section class="modal-section">'
            + '<div class="modal-description">'
