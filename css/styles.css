@@ -537,10 +537,6 @@ span {
     display: block;
   }
 
-  .div-menu {
-    display: none;
-  }
-
   .info {
     max-width: 448px;
     height: 405px;
