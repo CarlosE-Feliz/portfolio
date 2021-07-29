@@ -746,17 +746,12 @@ span {
   display: none;
 }
 
-.name-error_active{
+.name-error_active {
   display: flex;
   color: red;
 }
 
 .email-error {
   display: none;
-  color: red;
-}
-
-.name-error_active {
-  display: flex;
   color: red;
 }
