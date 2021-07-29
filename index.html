@@ -216,6 +216,7 @@
             action="https://formspree.io/f/mayadowe"
             class="container"
             method="POST"
+            id="form"
           >
             <ul class="ul-footer">
               <li>
@@ -223,11 +224,13 @@
                   type="text"
                   class="input-footer"
                   autocomplete="off"
-                  required=""
+                  required
+                  id="name"
                   name="name"
                   placeholder="Name"
                   maxlength="30"
                 />
+                <small class="name-error">Please set a correct name</small>
               </li>
               <li>
                 <input
@@ -235,9 +238,11 @@
                   class="input-footer"
                   autocomplete="off"
                   required
+                  id="email-form"
                   name="email"
                   placeholder="nama@gmail.com"
                 />
+                <small id="lower" class="email-error">Please set a correct email with lower case</small>
               </li>
               <li>
                 <textarea
@@ -245,6 +250,7 @@
                   class="textarea-footer"
                   autocomplete="off"
                   required
+                  id="textarea"
                   placeholder="Enter text here"
                   maxlength="500"
                 ></textarea>
