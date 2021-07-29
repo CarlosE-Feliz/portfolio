@@ -389,6 +389,10 @@ span {
   border-right: 1px solid #646369;
 }
 
+.menu-web {
+  display: none;
+}
+
 .footer-section {
   display: flex;
   flex-direction: column;
@@ -569,48 +573,9 @@ span {
     margin-right: 20vw;
     margin-left: 20vw;
   }
-
-  .nav {
-    justify-content: flex-end;
-    display: flex;
-    width: 100%;
-  }
-
-  .nav > i:not(:first-of-type) {
-    display: block;
-    justify-content: flex-end;
-    padding-right: 2rem;
-  }
-
-  .nav > h1:first-of-type {
-    justify-self: right;
-    text-align: left;
-    padding-right: 50%;
-    margin-top: 0;
-  }
-
-  .nav > * {
-    padding-left: 2em;
-  }
-
+  
   .section2 {
     justify-content: center;
-  }
-
-  .nav > p:first-of-type {
-    justify-self: right;
-    text-align: left;
-    padding-right: 57vw;
-  }
-
-  .nav > p:not(:first-of-type) {
-    display: block;
-    justify-content: flex-end;
-    padding-right: 2rem;
-  }
-
-  .nav > i:first-of-type {
-    display: none;
   }
 
   .section2 > ul {
@@ -623,10 +588,6 @@ span {
 
   .header {
     background-position: 2em top;
-  }
-
-  .div-menu {
-    display: none;
   }
 }
 
@@ -740,4 +701,33 @@ span {
   .modal-div-sources {
     flex-direction: row;
   }
+  
+  .div-menu {
+    display: none;
+  }
+
+  .menu-web {
+    justify-content: space-between;
+    position: relative;
+    width: 80%;
+    display: flex;
+  }
+
+  .log {
+    height: 10px;
+    margin: 0 50px;
+    font-size: medium;
+    align-self: center;
+    
+  }
+
+  .list-web {
+    width: 25%;
+  }
+
+  .list-web li {
+    width: 50%;
+    align-self: flex-start;
+  }
+
 }
