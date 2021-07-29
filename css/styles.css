@@ -304,9 +304,9 @@ span {
 
 .section3 {
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   grid-gap: 2em;
-  height: 20vh;
+  height: 10vh;
   margin-bottom: 1em;
 }
 
@@ -332,7 +332,7 @@ span {
 }
 
 .section4 {
-  grid-template-columns: 100%;
+  grid-template-columns: 99%;
   grid-template-rows: min-content;
   padding-top: 60px;
   background:
@@ -385,10 +385,12 @@ span {
 
 .languages > * {
   width: min-content;
-  height: 40px;
   padding: 10px;
-  margin: auto;
   border-right: 1px solid #646369;
+}
+
+.menu-web {
+  display: none;
 }
 
 .footer-section {
@@ -518,11 +520,6 @@ span {
     flex-direction: row-reverse;
   }
 
-  .section4 > div h2 {
-    max-width: 10em;
-    padding-left: 10vw;
-  }
-
   .footer-contact {
     display: none;
   }
@@ -532,15 +529,7 @@ span {
   }
 
   .project {
-    margin: unset;
     flex-direction: row;
-    align-items: flex-end;
-  }
-
-  .project > * {
-    max-height: min-content;
-    padding: unset;
-    width: 80vw;
   }
 
   .project > img {
@@ -585,47 +574,8 @@ span {
     margin-left: 20vw;
   }
 
-  .nav {
-    justify-content: flex-end;
-    display: flex;
-    width: 100%;
-  }
-
-  .nav > i:not(:first-of-type) {
-    display: block;
-    justify-content: flex-end;
-    padding-right: 2rem;
-  }
-
-  .nav > h1:first-of-type {
-    justify-self: right;
-    text-align: left;
-    padding-right: 50%;
-    margin-top: 0;
-  }
-
-  .nav > * {
-    padding-left: 2em;
-  }
-
   .section2 {
     justify-content: center;
-  }
-
-  .nav > p:first-of-type {
-    justify-self: right;
-    text-align: left;
-    padding-right: 57vw;
-  }
-
-  .nav > p:not(:first-of-type) {
-    display: block;
-    justify-content: flex-end;
-    padding-right: 2rem;
-  }
-
-  .nav > i:first-of-type {
-    display: none;
   }
 
   .section2 > ul {
@@ -639,8 +589,143 @@ span {
   .header {
     background-position: 2em top;
   }
+}
+
+/* modal styles */
+
+.overal {
+  background: #2f3577;
+  display: none;
+  justify-content: center;
+  align-content: center;
+  position: fixed;
+  opacity: 0.95;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.modal {
+  background: rgba(15, 1, 65, 0.16);
+  border: 1px solid #fff;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  width: 85%;
+  height: 90%;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  border-radius: 5px;
+  top: 1%;
+}
+
+.popup-img {
+  width: 100%;
+}
+
+.modal-header {
+  width: 99.8%;
+  height: 15%;
+}
+
+.top-side-modal {
+  align-self: flex-start;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.top-side-modal a {
+  margin-right: -80px;
+  cursor: alias;
+}
+
+.modal-p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 24px 0;
+}
+
+.modal-div-language > ul {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  width: 95%;
+}
+
+.modal-div-language .modal-language {
+  border-left: 1px rgba(255, 255, 255, 0.16) solid;
+  border-right: 1px rgba(255, 255, 255, 0.16) solid;
+  margin: 25px 0;
+  width: 80px;
+  margin-right: 3%;
+  text-align: center;
+}
+
+.modal-div-sources {
+  width: 95%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modal-buttons {
+  background: #4037be;
+  margin: 25px 10px;
+  border-radius: 5%;
+  align-self: center;
+}
+
+.li-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.li-menu p a img {
+  width: 15px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1000px) {
+  .modal {
+    width: 25%;
+  }
+
+  .modal-div-sources {
+    flex-direction: row;
+  }
 
   .div-menu {
     display: none;
+  }
+
+  .menu-web {
+    justify-content: space-between;
+    position: relative;
+    width: 80%;
+    display: flex;
+  }
+
+  .log {
+    height: 10px;
+    margin: 0 50px;
+    font-size: medium;
+    align-self: center;
+  }
+
+  .list-web {
+    width: 25%;
+  }
+
+  .list-web li {
+    width: 50%;
+    align-self: flex-start;
   }
 }

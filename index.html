@@ -1,214 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
 
-</head>
-
-<body class="container body">
-    <header class="nav ">
-        <div class="div-menu">
-            <div class="logo">
-                <a  href="#">Carlos Feliz</a>
-            </div>
-            <div class="btn">
-                <span >&#9776;</span>
-            </div>
-            <ul class="menu" id="menu">
-                <li class="close">
-                    <a href="#" id="close"> X </a>
-                </li> 
-                 <li>
-                     <a href="#">Portfolio</a>
-                </li>
-                 <li>
-                      <a href="#About">About</a>
-                </li>
-                 <li>
-                     <a href="#contact">Contact</a>
-                </li>
-               
-                <li> <i class="material-icons" id="email">email</i> </li>
-            </ul>
+  <body class="container body">
+   <!-- menu mobile --> 
+    <header id="menu-mobile" class="nav">
+      <div class="div-menu">
+        <div class="logo">
+          <a href="#">Carlos Feliz</a>
         </div>
-    </header>
-    <main>
-        <section class="container section1">
-            <h1>Carlos Feliz</h1>
-            <p class="subtitle">Software Developer</p>
-            <p>
-                This is the beginning of my portfolio as a software developer, I will be adding projects as I learn with microverse
-            </p>
-        </section>
-        <hr class="line"/>
-        <section class="container section2">
-          
-            <ul>
-                <li class="title">Language</li>
-                <li>Javascript</li>
-                <li>Ruby</li>
-                <li>Html</li>
-                <li>Css</li>
-            </ul>
-            <ul>
-                <li class="title">Frameworks</li>
-                <li>Bootstrap</li>
-                <li>Ruby on Rails</li>
-                <li>RSPec</li>
-                <li>CapyBara</li>
-                <li>Selenium</li>
-            </ul>
-            <ul>
-                <li class="title">Skills</li>
-                <li>Codekit</li>
-                <li>Github</li>
-                <li>Codepen</li>
-                <li>Gitlab</li>
-                <li>Terminal</li>
-            </ul>
-        </section> 
-        <hr class="line"/>
-        <section class="grid section3">
-          <ul class="container handles">
-            <li>
-                <h4 class="arrow">↓ Work</h4>
-            </li>
-            <li>
-                <a href="#"><img src="icons/github.svg" alt="github" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="icons/linkedin.svg" alt="linkedin" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="icons/twitter.svg" alt="twitter" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="icons/m.svg" alt="m" /></a>
-            </li>
-            <li>
-                <h4 class="arrow">↓ Work</h4>
-            </li>
+        <div class="btn">
+          <span>&#9776;</span>
+        </div>
+        <ul class="menu" id="menu">
+          <li class="close">
+            <a href="#" id="close"> X </a>
+          </li>
+          <li class="li-menu">
+            <a href="#">Portfolio</a><p><a href="#"><img src="./css/media/Union.png" alt=""></a></p>
+          </li>
+          <li class="li-menu">
+            <a href="#About">About</a><p><a href="#About"><img src="./css/media/Union.png" alt=""></a></p>
+          </li>
+          <li class="li-menu">
+            <a href="#contact">Contact</a><p><a href="#contact"><img src="./css/media/Union.png" alt=""></a></p>
+          </li>
+
+          <li><i class="material-icons" id="email">email</i></li>
         </ul>
-            <h4 id="work">↓ Work</h4>
-        </section>
-        <section class="grid section4" id="About">
-            <div class="recent-work">
-                <h2>MY RECENT WORK</h2>
-                <hr class="line2"/>
-            </div>
-            
-            <div class="container project">
-                  <img src="css/media/tuseeg.png" class="imagen"  width="300" height="200" alt="placeholder" />
-                <div class="info">
-                    <h3>Tu Seg insurance brokers</h3>
-                    <p>Website inspired by the insurance company TUSEG</p>
-                    <ul class="container languages">
-                        <li>css</li>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button>See Project</button>
-                </div>
-            </div>
-            <div class="container project">
-                <img src="https://st.depositphotos.com/1775533/1288/i/950/depositphotos_12884387-stock-photo-blind-man.jpg" class="imagen" height="200" width="300" alt="placeholder" />
-                <div class="info">
-                    <h3>About the project</h3>
-                    <p>Description of the proyect, date and languages</p>
-                    <ul class="container languages">
-                        <li>css</li>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button>See Project</button>
-                </div>
-            </div>
-            <div class="container project">
-                <img src="https://st.depositphotos.com/1775533/1288/i/950/depositphotos_12884387-stock-photo-blind-man.jpg" class="imagen" height="200" width="300" alt="placeholder" />
-                <div class="info">
-                    <h3>About the project</h3>
-                    <p>Description of the proyect, date and languages</p>
-                    <ul class="container languages">
-                        <li>css</li>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button>See Project</button>
-                </div>
-            </div>
-            <div class="container project">
-                <img src="https://st.depositphotos.com/1775533/1288/i/950/depositphotos_12884387-stock-photo-blind-man.jpg" class="imagen" height="200" width="300" alt="placeholder" />
-                <div class="info">
-                    <h3>About the project</h3>
-                    <p>Description of the proyect, date and languages</p>
-                    <ul class="container languages">
-                        <li>css</li>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button>See Project</button>
-                </div>
-            </div>
-        </section>
+      </div>
+    </header> 
+    <!-- end menu mobile -->
+
+    <!-- web menu -->
+    <header class="menu-web flex">
+      <h1 class="log"><a href="#">CarlosFeliz</a></h1>
+        <ul class="flex list-web">
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><i class="material-icons">mail_outline</i></li>
+        </ul>
+    </header>
+    <!-- end web menu -->
+    <main>
+      <section class="container section1">
+        <h1>Carlos Feliz</h1>
+        <p class="subtitle">Software Developer</p>
+        <p>
+          This is the beginning of my portfolio as a software developer, I will
+          be adding projects as I learn with microverse
+        </p>
+      </section>
+      <hr class="line" />
+      <section class="container section2">
+        <ul>
+          <li class="title">Language</li>
+          <li>Javascript</li>
+          <li>Ruby</li>
+          <li>Html</li>
+          <li>Css</li>
+        </ul>
+        <ul>
+          <li class="title">Frameworks</li>
+          <li>Bootstrap</li>
+          <li>Ruby on Rails</li>
+          <li>RSPec</li>
+          <li>CapyBara</li>
+          <li>Selenium</li>
+        </ul>
+        <ul>
+          <li class="title">Skills</li>
+          <li>Codekit</li>
+          <li>Github</li>
+          <li>Codepen</li>
+          <li>Gitlab</li>
+          <li>Terminal</li>
+        </ul>
+      </section>
+      <hr class="line" />
+      <section class="grid section3">
+        <ul class="container handles">
+          <li>
+            <h4 class="arrow">↓ Work</h4>
+          </li>
+          <li>
+            <a href="#"><img src="icons/github.svg" alt="github" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="icons/linkedin.svg" alt="linkedin" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="icons/twitter.svg" alt="twitter" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="icons/m.svg" alt="m" /></a>
+          </li>
+          <li>
+            <h4 class="arrow">↓ Work</h4>
+          </li>
+        </ul>
+        <h4 id="work">↓ Work</h4>
+      </section>
+      <section class="grid section4" id="About">
+        <div class="recent-work">
+          <h2>MY RECENT WORK</h2>
+          <hr class="line2" />
+        </div>
+
+        <div class="container project">
+          <img
+            src="./css/media/tuseeg.png"
+            class="imagen"
+            width="300"
+            height="200"
+            alt="placeholder"
+          />
+          <div class="info">
+            <h3>Tu Seg insurance brokers</h3>
+            <p>Website inspired by the insurance company TUSEG</p>
+            <ul class="container languages">
+              <li>css</li>
+              <li>html</li>
+              <li>bootstrap</li>
+              <li>Ruby</li>
+            </ul>
+            <button id = "0" class="popup-button">See Project</button>
+          </div>
+        </div>
+        <div class="container project">
+          <img
+          src="css/media/tuseeg.png"
+            class="imagen"
+            height="200"
+            width="300"
+            alt="placeholder"
+          />
+          <div class="info">
+            <h3>About the project</h3>
+            <p>Description of the proyect, date and languages</p>
+            <ul class="container languages">
+              <li>css</li>
+              <li>html</li>
+              <li>bootstrap</li>
+              <li>Ruby</li>
+            </ul>
+            <button id = "1" class="popup-button">See Project</button>
+          </div>
+        </div>
+        <div class="container project">
+          <img
+          src="css/media/tuseeg.png"
+            class="imagen"
+            height="200"
+            width="300"
+            alt="placeholder"
+          />
+          <div class="info">
+            <h3>About the project</h3>
+            <p>Description of the proyect, date and languages</p>
+            <ul class="container languages">
+              <li>css</li>
+              <li>html</li>
+              <li>bootstrap</li>
+              <li>Ruby</li>
+            </ul>
+            <button id = "2" class="popup-button">See Project</button>
+          </div>
+        </div>
+        <div class="container project">
+          <img
+          src="css/media/tuseeg.png"
+            class="imagen"
+            height="200"
+            width="300"
+            alt="placeholder"
+          />
+          <div class="info">
+            <h3>About the project</h3>
+            <p>Description of the proyect, date and languages</p>
+            <ul class="container languages">
+              <li>css</li>
+              <li>html</li>
+              <li>bootstrap</li>
+              <li>Ruby</li>
+            </ul>
+            <button id = "3" class="popup-button">See Project</button>
+          </div>
+        </div>
+      </section>
     </main>
-    <section class="footer-section" id="contact">
-    <footer class="flex-footer">
-        
-            <article>
-                <h2>CONTACT US</h2>
-                <p>
-                If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
-                </p>
-            </article>
+   <section class="footer-section" id="contact">
+      <footer class="flex-footer">
+        <article>
+          <h2>CONTACT US</h2>
+          <p>
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+        </article>
 
-            <section>
-                <form action="https://formspree.io/f/mayadowe" class="container"  method="POST">
-                  <ul class="ul-footer">
-                        <li><input type="text" class="input-footer" autocomplete="off" required="" name="name" placeholder="Name" maxlength="30"></li>
-                        <li>
-                            <input type="email" class="input-footer" autocomplete="off" required name="email" placeholder="nama@gmail.com" />
-                        </li>
-                        <li>
-                            <textarea name="textarea" class="textarea-footer" autocomplete="off" required placeholder="Enter text here" maxlength="500"></textarea>
-                        </li>
-                        <li class="li-button">
-                            <button type="submit" class="button-footer">See Project</button>
-                        </li>
-                          </ul>
-                </form>
-                <hr>
+         <section>
+          <form
+            action="https://formspree.io/f/mayadowe"
+            class="container"
+            method="POST"
+          >
+            <ul class="ul-footer">
+              <li>
+                <input
+                  type="text"
+                  class="input-footer"
+                  autocomplete="off"
+                  required=""
+                  name="name"
+                  placeholder="Name"
+                  maxlength="30"
+                />
+              </li>
+              <li>
+                <input
+                  type="email"
+                  class="input-footer"
+                  autocomplete="off"
+                  required
+                  name="email"
+                  placeholder="nama@gmail.com"
+                />
+              </li>
+              <li>
+                <textarea
+                  name="textarea"
+                  class="textarea-footer"
+                  autocomplete="off"
+                  required
+                  placeholder="Enter text here"
+                  maxlength="500"
+                ></textarea>
+              </li>
+              <li class="li-button">
+                <button type="submit" class="button-footer">Contact me</button>
+              </li>
+            </ul>
+          </form>
+          <hr />
 
-                <ul class="container footer-handles">
-                    <li>
-                        <a href="#"><img src="icons/github.svg" alt="github" /></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="icons/linkedin.svg" alt="linkedin" /></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="icons/twitter.svg" alt="twitter" /></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="icons/m.svg" alt="m" /></a>
-                    </li>
-                    <li><p class="cont-email">cfelizmedina@gmail.com</p></li>
-                </ul>
-                
-                <br />
-                <p class="footer-contact">cfelizmedina@gmail.com</p>
-            </section>
-       </footer>
+          <ul class="container footer-handles">
+            <li>
+              <a href="#"><img src="icons/github.svg" alt="github" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="icons/linkedin.svg" alt="linkedin" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="icons/twitter.svg" alt="twitter" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="icons/m.svg" alt="m" /></a>
+            </li>
+            <li><p class="cont-email">cfelizmedina@gmail.com</p></li>
+          </ul>
+
+          <br />
+          <p class="footer-contact">cfelizmedina@gmail.com</p>
+        </section>
+      </footer>
     </section>
+
+    <!-- modal section -->
+
+    <div id="overal" class="overal flex active"></div>
+
     <script src="./js/script.js" defer></script>
-</body>
+  </body>
 </html>
