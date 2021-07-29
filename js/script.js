@@ -1,3 +1,4 @@
+/* eslint-disable default-case */
 const btnT = document.querySelector('.btn');
 btnT.addEventListener('click', () => { document.getElementById('menu').classList.toggle('active'); });
 const btn2 = document.querySelector('.menu');
@@ -80,3 +81,65 @@ function addEventListenerList() {
   }
 }
 addEventListenerList();
+
+// validate form
+const expresiones = {
+  name: /^[a-zA-ZÀ-ÿ\s]{1,40}$/,
+  email: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
+};
+
+const camps = {
+  name: false,
+  email: false,
+};
+const forms = document.getElementById('form');
+const inputs = document.querySelectorAll('#form input');
+
+const validateform = (e) => {
+  switch (e.target.name) {
+    case 'name':
+      if (expresiones.name.test(e.target.value)) {
+        document.getElementById('name').classList.remove('incorrect_name');
+        document.getElementById('name').classList.add('correct_name');
+        document.querySelector('#form .name-error').classList.remove('name-error_active');
+        camps.name = true;
+      } else {
+        document.getElementById('name').classList.add('incorrect_name');
+        document.getElementById('name').classList.remove('correct_name');
+        document.querySelector('#form .name-error').classList.add('name-error_active');
+        camps.name = false;
+      }
+
+      break;
+    case 'email':
+      if (expresiones.email.test(e.target.value)) {
+        document.getElementById('email-form').classList.remove('incorrect_email');
+        document.getElementById('email-form').classList.add('correct_email');
+        document.querySelector('#form .email-error').classList.remove('email-error_active');
+        camps.email = true;
+      } else {
+        document.getElementById('email-form').classList.add('incorrect_email');
+        document.getElementById('email-form').classList.remove('correct_email');
+        document.querySelector('#form .email-error').classList.add('email-error_active');
+        camps.email = false;
+      }
+
+      break;
+  }
+};
+
+inputs.forEach((input) => {
+  input.addEventListener('keyup', validateform);
+  input.addEventListener('blur', validateform);
+});
+
+forms.addEventListener('submit', (e) => {
+  const mail = document.getElementById('email-form').value;
+  const valid = /[A-Z]/.test(mail);
+  if (valid) {
+    document.querySelector('.email-error').style.display = 'flex';
+    e.preventDefault();
+  } else {
+    document.querySelector('.email-error').style.display = 'none';
+  }
+});

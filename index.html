@@ -195,7 +195,7 @@
               <li>bootstrap</li>
               <li>Ruby</li>
             </ul>
-            <button id = "3" class="popup-button">See Project</button>
+            <button  id = "3" class="popup-button">See Project</button>
           </div>
         </div>
       </section>
@@ -212,22 +212,21 @@
         </article>
 
          <section>
-          <form
-            action="https://formspree.io/f/mayadowe"
-            class="container"
-            method="POST"
-          >
+      
+          <form class="container" action="https://formspree.io/f/xknkqjoj" method="post" id="form">
             <ul class="ul-footer">
               <li>
                 <input
                   type="text"
                   class="input-footer"
                   autocomplete="off"
-                  required=""
+                  required
+                  id="name"
                   name="name"
                   placeholder="Name"
                   maxlength="30"
                 />
+                <small class="name-error">Please set a correct name</small>
               </li>
               <li>
                 <input
@@ -235,9 +234,11 @@
                   class="input-footer"
                   autocomplete="off"
                   required
+                  id="email-form"
                   name="email"
                   placeholder="nama@gmail.com"
                 />
+                <small id="lower" class="email-error">Please set a correct email with lower case</small>
               </li>
               <li>
                 <textarea
@@ -245,6 +246,7 @@
                   class="textarea-footer"
                   autocomplete="off"
                   required
+                  id="textarea"
                   placeholder="Enter text here"
                   maxlength="500"
                 ></textarea>
