@@ -139,3 +139,14 @@ forms.addEventListener('submit', (e) => {
     forms.reset();
   }
 });
+
+function hasLowerCase() {
+  const mail = document.getElementById('email-form').value;
+  const valid = /[A-Z]/.test(mail);
+  if (valid) {
+    document.querySelector('.email-error').style.display = 'flex';
+  } else {
+    document.querySelector('.email-error').style.display = 'none';
+  }
+}
+hasLowerCase();
