@@ -2,8 +2,7 @@
 
 # My Portfolio😁😎
 
-Add a mobile menu using our recently acquired JavaScript knowledge.
-![image](https://user-images.githubusercontent.com/74747182/127190368-aa8fa883-f23b-4458-8e23-79150f8ab18f.png)
+Add a contact validation using our recently acquired JavaScript knowledge.
 
 
 ## Built With
