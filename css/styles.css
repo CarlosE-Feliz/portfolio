@@ -379,10 +379,6 @@ span {
   height: 100vh;
 }
 
-#email {
-  display: none;
-}
-
 .languages > * {
   width: min-content;
   padding: 10px;
@@ -728,4 +724,39 @@ span {
     width: 50%;
     align-self: flex-start;
   }
+}
+
+.correct_email {
+  border: greenyellow solid 3px;
+}
+
+.incorrect_email {
+  border: red solid 3px;
+}
+
+.correct_name {
+  border: greenyellow solid 3px;
+}
+
+.incorrect_name {
+  border: red solid 3px;
+}
+
+.name-error {
+  display: none;
+}
+
+.name-error_active{
+  display: flex;
+  color: red;
+}
+
+.email-error {
+  display: none;
+  color: red;
+}
+
+.name-error_active {
+  display: flex;
+  color: red;
 }
