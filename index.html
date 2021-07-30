@@ -11,8 +11,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
   </head>
-
-  <body class="container body">
+  <body class="container body" >
    <!-- menu mobile --> 
     <header id="menu-mobile" class="nav">
       <div class="div-menu">
@@ -35,8 +34,6 @@
           <li class="li-menu">
             <a href="#contact">Contact</a><p><a href="#contact"><img src="./css/media/Union.png" alt=""></a></p>
           </li>
-
-          <li><i class="material-icons" id="email">email</i></li>
         </ul>
       </div>
     </header> 
@@ -217,9 +214,9 @@
             <ul class="ul-footer">
               <li>
                 <input
+                onchange="storage()"
                   type="text"
-                  class="input-footer"
-                  autocomplete="off"
+                  class="input-footer footer-input"
                   required
                   id="name"
                   name="name"
@@ -230,9 +227,9 @@
               </li>
               <li>
                 <input
+                onchange="storage()"
                   type="email"
-                  class="input-footer"
-                  autocomplete="off"
+                  class="input-footer footer-input"
                   required
                   id="email-form"
                   name="email"
@@ -242,9 +239,9 @@
               </li>
               <li>
                 <textarea
+                onchange="storage()"
                   name="textarea"
-                  class="textarea-footer"
-                  autocomplete="off"
+                  class="textarea-footer footer-input"
                   required
                   id="textarea"
                   placeholder="Enter text here"
@@ -252,7 +249,7 @@
                 ></textarea>
               </li>
               <li class="li-button">
-                <button type="submit" class="button-footer">Contact me</button>
+                <button type="submit" id="submit-form" class="button-footer">Contact me</button>
               </li>
             </ul>
           </form>

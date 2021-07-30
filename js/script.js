@@ -1,3 +1,4 @@
+/* eslint-disable dot-notation */
 /* eslint-disable default-case */
 const btnT = document.querySelector('.btn');
 btnT.addEventListener('click', () => { document.getElementById('menu').classList.toggle('active'); });
@@ -109,7 +110,6 @@ const validateform = (e) => {
         document.querySelector('#form .name-error').classList.add('name-error_active');
         camps.name = false;
       }
-
       break;
     case 'email':
       if (expresiones.email.test(e.target.value)) {
@@ -123,7 +123,6 @@ const validateform = (e) => {
         document.querySelector('#form .email-error').classList.add('email-error_active');
         camps.email = false;
       }
-
       break;
   }
 };
@@ -143,3 +142,35 @@ forms.addEventListener('submit', (e) => {
     document.querySelector('.email-error').style.display = 'none';
   }
 });
+
+// LocalStorage
+
+let data = {};
+// eslint-disable-next-line no-unused-vars
+function storage() {
+  const fullName = forms.elements['name'].value;
+  const email = forms.elements['email'].value;
+  const textarea = forms.elements['textarea'].value;
+  data = {
+    fullName,
+
+    email,
+
+    textarea,
+  };
+  localStorage.setItem('data', JSON.stringify(data));
+}
+
+const getData = () => {
+  const getInputs = document.querySelectorAll('.footer-input');
+  const savedData = JSON.parse(localStorage.getItem('data'));
+  const convert = { ...savedData };
+
+  if (!Object.values(convert).every((o) => o === '')) {
+    for (let i = 0; i < getInputs.length; i += 1) {
+      getInputs[i].value = Object.values(convert)[i];
+      // console.log(getInputs[i].value);
+    }
+  }
+};
+getData();
