@@ -145,8 +145,8 @@ forms.addEventListener('submit', (e) => {
 
 // LocalStorage
 
-
-let data =   {};
+let data = {};
+// eslint-disable-next-line no-unused-vars
 function storage() {
   const fullName = forms.elements['name'].value;
   const email = forms.elements['email'].value;
@@ -158,18 +158,18 @@ function storage() {
 
     textarea,
   };
-  localStorage.setItem ('data', JSON.stringify(data));
+  localStorage.setItem('data', JSON.stringify(data));
 }
 
-const getData = ()=>{
+const getData = () => {
   const getInputs = document.querySelectorAll('.footer-input');
   const savedData = JSON.parse(localStorage.getItem('data'));
-  const    convert = { ...savedData };
+  const convert = { ...savedData };
 
-  if (!Object.values (convert).every ((o) => o === '')) {
+  if (!Object.values(convert).every((o) => o === '')) {
     for (let i = 0; i < getInputs.length; i += 1) {
       getInputs[i].value = Object.values(convert)[i];
-      console.log(getInputs[i].value);
+      // console.log(getInputs[i].value);
     }
   }
 };
