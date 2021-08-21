@@ -95,6 +95,7 @@ body {
     url(media/circle\ 1\ header.svg);
   background-repeat: no-repeat;
   background-position: 22em 35em;
+  overflow-x: hidden;
 }
 
 button {
@@ -350,9 +351,15 @@ span {
 
 .imagen {
   transition: all 500ms ease;
+  border: indigo 5px solid;
 }
 
 .imagen:hover {
+  transform: scale(0.9);
+}
+
+.popup-img img:hover {
+  transition: all 800ms;
   transform: scale(1.2);
 }
 
