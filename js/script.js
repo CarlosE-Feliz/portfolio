@@ -10,20 +10,26 @@ const projects = [
   {
     title: 'Your seg insurance brokers',
     description: 'Website inspired by the insurance company TUSEG',
-    tech: ['HTML', 'JavaScript', 'Css', 'Ruby'],
+    tech: ['HTML', 'Css'],
     imgUrl: './media/tuseeg.png',
+    live: 'https://xjokeer.github.io/Tuseg-pagina-web/',
+    source: 'https://github.com/xJokeer/Tuseg-pagina-web',
   },
   {
-    title: 'About the project #1',
-    description: 'Description of the proyect, date and languages',
-    tech: ['HTML', 'JavaScript', 'Css', 'Ruby'],
-    imgUrl: './media/tuseeg.png',
+    title: 'Microverse Capstone',
+    description: 'Project inspired by architecture, my purpose is to show the most talented young people of our era in the world of architecture.',
+    tech: ['HTML', 'JavaScript', 'Css', 'Boostrap'],
+    imgUrl: 'https://user-images.githubusercontent.com/74747182/130336584-3699e1a0-0688-49e5-8546-f75df7116032.png',
+    live: 'https://xjokeer.github.io/Capstone_Microverse/',
+    source: 'https://github.com/xJokeer/Capstone_Microverse',
   },
   {
     title: 'About the project #2',
     description: 'Description of the proyect, date and languages',
-    tech: ['HTML', 'JavaScript', 'Css', 'Ruby'],
+    tech: ['HTML', 'JavaScript', 'Css'],
     imgUrl: './media/tuseeg.png',
+    live: 'https://xjokeer.github.io/Capstone_Microverse/',
+    source: 'https://github.com/xJokeer/To-Do_List',
   },
   {
     title: 'About the project #3',
@@ -56,7 +62,7 @@ function addEventListenerList() {
            + '</div>'
           + '</section>'
           + '<div class="popup-img">'
-           + `<img src="./media/tuseeg.png" width="330px" src="${projects[projectId].imgUrl}" alt="placeholder>`
+           + `<img width="330px" src="${projects[projectId].imgUrl}" alt="placeholder>`
           + '</div>'
           + '<section class="modal-section">'
            + '<div class="modal-description">'
@@ -66,8 +72,8 @@ function addEventListenerList() {
              + `<ul id="project-list">${techHTML}</ul>`
             + '</div>'
             + '<div class="modal-div-sources flex">'
-             + '<button class="modal-buttons">See Live<a href="#"></a></button>'
-              + '<button class="modal-buttons">See Source<a href="#"></a></button>'
+             + `<button class="modal-buttons"><a target="_blank" href="${projects[projectId].live}">See Live</a></button>`
+              + `<button class="modal-buttons"><a target="_blank" href="${projects[projectId].source}">See Source</a></button>`
            + '</div>'
           + '</section>';
 
